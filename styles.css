@@ -72,3 +72,19 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* general styling */
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+}
+.card {
+  background-color: ;
+  display: flex;
+  border: 2px red solid;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 23.43rem;
+}
