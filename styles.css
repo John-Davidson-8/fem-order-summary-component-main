@@ -77,14 +77,39 @@ body {
   background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
-}
-.card {
-  background-color: ;
+  width: 100%;
   display: flex;
-  border: 2px red solid;
-  max-width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card {
   max-width: 23.43rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+}
+.card-img {
+  border-radius: 5px;
+}
+h1 {
+  align-self: center;
+  font-weight: 900;
+  font-size: 1.75rem;
+  line-height: 2.31rem;
+}
+p {
+  text-align: center;
+  font-weight: 500;
+  color: hsla(224, 23%, 55%, 1);
+  font-size: 1rem;
+  line-height: 1.625;
+}
+.plan-details {
+  display: flex;
 }
