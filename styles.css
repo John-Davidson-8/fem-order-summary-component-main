@@ -89,7 +89,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   border-radius: 15px;
   overflow: hidden;
   margin: 1rem;
@@ -98,12 +98,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 2.5rem;
 }
 .card-img {
   border-radius: 5px;
 }
 h1 {
   align-self: center;
+  text-align: center;
   font-weight: 900;
   font-size: 1.75rem;
   line-height: 2.31rem;
@@ -118,6 +120,44 @@ p {
 .plan-details {
   display: flex;
   justify-content: space-around;
+  gap: 1rem;
 }
-.price {
+.cost {
+  margin-right: auto;
+}
+.plan-length {
+  font-weight: 900;
+  color: black;
+}
+.plan-details a {
+  color: hsla(245, 75%, 52%, 1);
+  font-weight: 700;
+  font-size: 0.7;
+  line-height: 1.158;
+  align-self: center;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  width: 17.43rem;
+  height: 3.125rem;
+  border-radius: 1rem;
+  margin: auto;
+  font-size: 0.938rem;
+  font-weight: 900;
+}
+.pay {
+  background-color: hsla(245, 75%, 52%, 1);
+  color: white;
+  box-shadow: 5px 10px;
+}
+.cancel {
+  color: hsl(224, 23%, 55%);
+  background-color: white;
 }
