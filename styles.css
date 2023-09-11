@@ -161,3 +161,25 @@ p {
   color: hsl(224, 23%, 55%);
   background-color: white;
 }
+@media screen and (min-width: 20.5rem) {
+  .card {
+    max-width: 28.12rem;
+  }
+}
+@media screen and (min-width: 28.12rem) {
+  .btn {
+    width: 22.12rem;
+  }
+}
+.plan-details a:hover {
+  color: hsla(245, 83%, 68%, 1);
+}
+.pay:hover {
+  background-color: hsla(245, 83%, 68%, 1);
+}
+.cancel:hover {
+  color: black;
+}
+.plan-details a:hover {
+  text-decoration: none;
+}
