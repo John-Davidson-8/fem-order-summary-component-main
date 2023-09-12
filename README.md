@@ -24,12 +24,6 @@ A small Frontend Mentor challenge using HTML, CSS, and CSS Flexbox.
 
 ![card design with person listening to music on headphones](design/mobiel-design.jpg)
 
-![](design/desktop-preview.jpg)
-
-![](design/desktop-design.jpg)
-
-![](design/desktop-design.jpg)
-
 ### Screenshot
 
 ![Alt text](screenshots/desktop-screenshot.png)
