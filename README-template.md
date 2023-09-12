@@ -22,13 +22,13 @@ A small Frontend Mentor challenge using HTML, CSS, and CSS Flexbox.
 
 ### The challenge
 
-![Alt text](design/mobiel-design.jpg)
+![card design with person listening to music on headphones](design/mobiel-design.jpg)
 
-![Alt text](design/desktop-preview.jpg)
+![](design/desktop-preview.jpg)
 
-![Alt text](design/desktop-design.jpg)
+![](design/desktop-design.jpg)
 
-![Alt text](design/desktop-design.jpg)
+![](design/desktop-design.jpg)
 
 ### Screenshot
 
@@ -38,8 +38,8 @@ A small Frontend Mentor challenge using HTML, CSS, and CSS Flexbox.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/John-Davidson-8/fem-order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://fem-order-summary-main.netlify.app/)
+- Solution URL: (https://github.com/John-Davidson-8/fem-order-summary-component-main)
+- Live Site URL: (https://fem-order-summary-main.netlify.app/)
 
 ## My process
 
