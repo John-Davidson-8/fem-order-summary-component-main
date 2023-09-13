@@ -137,6 +137,12 @@ p {
   font-weight: 900;
   color: black;
 }
+.btn-change {
+  color: hsla(245, 75%, 52%, 1);
+  border: none;
+  background-color: hsla(225, 100%, 98%, 1);
+  text-decoration: underline;
+}
 .plan-details a {
   color: hsla(245, 75%, 52%, 1);
   font-weight: 700;
@@ -144,13 +150,31 @@ p {
   line-height: 1.158;
   align-self: center;
 }
-.cta {
+.checkout {
+  margin: auto;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: hsla(245, 75%, 52%, 1);
+  width: 17.43rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.no-checkout {
+  margin: auto;
+  padding: 1rem;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  text-align: center;
+}
+/* .cta {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 2rem;
-}
-.btn {
+} */
+/* .btn {
   cursor: pointer;
   border: 0;
   width: 17.43rem;
@@ -159,8 +183,8 @@ p {
   margin: auto;
   font-size: 0.938rem;
   font-weight: 900;
-}
-.pay {
+} */
+/* .pay {
   background-color: hsla(245, 75%, 52%, 1);
   color: white;
   box-shadow: 10px 10px;
@@ -168,26 +192,28 @@ p {
 .cancel {
   color: hsl(224, 23%, 55%);
   background-color: white;
-}
+} */
 @media screen and (min-width: 20.5rem) {
   .card {
     max-width: 28.12rem;
   }
 }
 @media screen and (min-width: 28.12rem) {
-  .btn {
-    width: 22.12rem;
+  .checkout,
+  .no-checkout {
+    width: 25rem;
   }
 }
 .plan-details a:hover {
   color: hsla(245, 83%, 68%, 1);
 }
-.pay:hover {
+.checkout:hover {
   background-color: hsla(245, 83%, 68%, 1);
 }
-.cancel:hover {
+.no-checkout:hover {
   color: black;
 }
-.plan-details a:hover {
+.btn-change:hover {
   text-decoration: none;
+  cursor: pointer;
 }
