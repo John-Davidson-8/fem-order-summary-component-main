@@ -90,14 +90,17 @@ body {
 /* flex: auto; */
 /* } */
 .card {
-  max-width: 25rem;
+  max-width: 25.125rem;
   background-color: white;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  border-radius: 15px;
+  border-radius: 1.25rem;
   overflow: hidden;
   margin: 1rem;
+  box-shadow: 0.063rem 0.063rem 3.125rem rgba(31, 47, 86, 0.12),
+    0 0.063rem 0.125rem rgba(31, 47, 86, 0.24);
+  transition: all 0.2s ease-in-out;
 }
 .card-info {
   display: flex;
